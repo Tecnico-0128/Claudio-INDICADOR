@@ -1,0 +1,52 @@
+body{
+     background-image: url("fundo.png");
+}
+
+h1{
+     text-align: center;
+    color: rgb(241, 241, 241);
+}
+
+.informacoes {
+    text-align: center;
+    color: rgb(241, 241, 241);
+    background-color: rgba(27, 40, 73, 0.8);
+  
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(232, 235, 235);
+    color: rgb(247, 244, 244);
+    padding: 10px;
+    font-weight: bold;
+}
+
+ a {
+    color: rgb(61, 61, 238);
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+button {
+    background-color: rgb(17, 2, 146);
+    color: rgb(241, 241, 241);
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+.principal {
+    width: 500px;
+    background-color: #1607e7;
+    color: white;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid rgb(58, 55, 214);
+}
