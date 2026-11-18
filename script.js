@@ -181,14 +181,14 @@ ativo.innerHTML = "Ativos:"
 for (let funcionario of funcionarios){
   if (funcionario.situacao == "Ativo")
   ativo.innerHTML += `<p>Nome: ${funcionario.nome} | CPF: ${funcionario.cpf} | Data de nascimento: ${funcionario.data} 
-| Salário: ${funcionario.salario} | Função: ${funcionario.funcao} | Estado atual: ${funcionario.situacao}
+| Salário: ${funcionario.salario} | Função: ${funcionario.funcao} | Situtação: ${funcionario.situacao}
         </p>`
   }
   demitido.innerHTML = "Demitidos::"
 for (let funcionario of funcionarios){
   if (funcionario.situacao == "Demitido")
   demitido.innerHTML += `<p>Nome: ${funcionario.nome} | CPF: ${funcionario.cpf} | Data de nascimento: ${funcionario.data} 
-| Salário: ${funcionario.salario} | Função: ${funcionario.funcao} | Estado atual: ${funcionario.situacao}
+| Salário: ${funcionario.salario} | Função: ${funcionario.funcao} | Situação: ${funcionario.situacao}
         </p>`
   }
 
