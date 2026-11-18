@@ -46,6 +46,12 @@ function cadastrar_funcionario() {
 
             localStorage.setItem("funcionarios", JSON.stringify(funcionarios))
             alert("Funcionario Cadastrado com sucesso!")
+            nomeC.value = ""
+            cpfC.value = ""
+            dataC.value = ""
+            salarioC.value = ""
+            funcaoC.value = ""
+
 
 
           } else alert("Funcionario Já Cadastrado!")
